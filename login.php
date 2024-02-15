@@ -2,12 +2,12 @@
 session_start();
 
   if (isset($_POST['btn_submit'])){
-    if ($_POST['username'] == 'mizzy' && $_POST['password'] == 'pearl'){
+    if ($_POST['username'] == 'cc' && $_POST['password'] == 'se'){
       if (isset($_POST['rememberme'])){
-        setcookie('cookie_name','mizzy',time() + 1000000); //Setting a Cookie
+        setcookie('cookie_name','ccse',time() + 1000000); //Setting a Cookie
         header('location: main.php');
       }else{
-        $_SESSION['name'] = "mizzy"; //Setting a Session
+        $_SESSION['name'] = "ccse"; //Setting a Session
         header('location: main.php');
       }
           
